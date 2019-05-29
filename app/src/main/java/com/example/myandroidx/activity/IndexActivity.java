@@ -28,6 +28,9 @@ public class IndexActivity extends AppCompatActivity {
             case R.id.btn3:
                 startActivity(new Intent(IndexActivity.this, ViewPagerTablayoutActivity.class));
                 break;
+            case R.id.btn4:
+                startActivity(new Intent(IndexActivity.this, CoordinateActivity.class));
+                break;
         }
     }
 }

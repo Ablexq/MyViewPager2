@@ -11,14 +11,14 @@ import com.example.myandroidx.R;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class TwoFragment extends androidx.fragment.app.Fragment {
-    private static final String TAG = TwoFragment.class.getSimpleName();
+public class ThreeFragment extends androidx.fragment.app.Fragment {
+    private static final String TAG = ThreeFragment.class.getSimpleName();
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        Log.i(TAG, "onCreateView==========" + 2);
+        Log.i(TAG, "onCreateView==========" + 3);
 
-        return inflater.inflate(R.layout.fragment_two, container, false);
+        return inflater.inflate(R.layout.fragment_three, container, false);
     }
 }

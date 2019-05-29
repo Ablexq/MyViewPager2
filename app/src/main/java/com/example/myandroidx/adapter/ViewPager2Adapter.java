@@ -18,7 +18,13 @@ import androidx.recyclerview.widget.RecyclerView;
 public class ViewPager2Adapter extends RecyclerView.Adapter<ViewPager2Adapter.ViewHolder> {
     private List<String> mData;
     private LayoutInflater mInflater;
-    private int[] colorArray = new int[]{android.R.color.black, android.R.color.holo_blue_dark, android.R.color.holo_green_dark, android.R.color.holo_red_dark};
+    private int[] colorArray = new int[]{android.R.color.black,
+            android.R.color.holo_blue_dark,
+            android.R.color.holo_green_dark,
+            android.R.color.darker_gray,
+            android.R.color.holo_purple,
+            android.R.color.holo_orange_light,
+            android.R.color.holo_red_dark};
 
     public ViewPager2Adapter(Context context, List<String> data) {
         this.mInflater = LayoutInflater.from(context);

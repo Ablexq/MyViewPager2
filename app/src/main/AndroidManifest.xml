@@ -14,6 +14,7 @@
         <activity android:name=".activity.ViewPager2TablayoutActivity" />
         <activity android:name=".activity.ViewPagerTablayoutActivity" />
         <activity android:name=".activity.ViewPager2SimpleActivity" />
+        <activity android:name=".activity.CoordinateActivity" />
         <activity android:name=".activity.IndexActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
