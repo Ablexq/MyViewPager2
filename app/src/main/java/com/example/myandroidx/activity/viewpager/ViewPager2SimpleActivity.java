@@ -1,19 +1,19 @@
-package com.example.myandroidx.activity;
+package com.example.myandroidx.activity.viewpager;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.myandroidx.activity.BaseActivity;
 import com.example.myandroidx.adapter.MyAdapter;
 import com.example.myandroidx.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
-public class ViewPager2SimpleActivity extends AppCompatActivity implements MyAdapter.OnItemClickListener {
+public class ViewPager2SimpleActivity extends BaseActivity implements MyAdapter.OnItemClickListener {
 
     private ViewPager2 mVp;
     private List<Integer> list = new ArrayList<Integer>();

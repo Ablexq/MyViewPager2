@@ -1,7 +1,8 @@
-package com.example.myandroidx.activity;
+package com.example.myandroidx.activity.viewpager;
 
 import android.os.Bundle;
 
+import com.example.myandroidx.activity.BaseActivity;
 import com.example.myandroidx.adapter.ViewPagerAdapter;
 import com.example.myandroidx.fragment.FiveFragment;
 import com.example.myandroidx.fragment.FourFragment;
@@ -13,11 +14,10 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-public class ViewPagerTablayoutActivity extends AppCompatActivity {
+public class ViewPagerTablayoutActivity extends BaseActivity {
 
     private ArrayList<Fragment> fragmentList;
     private ArrayList<String> list_Title;

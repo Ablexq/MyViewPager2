@@ -5,9 +5,8 @@ import android.os.Bundle;
 import com.example.myandroidx.R;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class CoordinateActivity extends AppCompatActivity {
+public class CoordinateActivity extends BaseActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

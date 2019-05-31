@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.myandroidx.R;
+import com.example.myandroidx.activity.drawlayout.DrawerLayoutActivity;
+import com.example.myandroidx.activity.viewpager.ViewPager2SimpleActivity;
+import com.example.myandroidx.activity.viewpager.ViewPager2TablayoutActivity;
+import com.example.myandroidx.activity.viewpager.ViewPagerTablayoutActivity;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class IndexActivity extends AppCompatActivity {
+public class IndexActivity extends BaseActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,6 +33,9 @@ public class IndexActivity extends AppCompatActivity {
                 break;
             case R.id.btn4:
                 startActivity(new Intent(IndexActivity.this, CoordinateActivity.class));
+                break;
+                case R.id.btn5:
+                startActivity(new Intent(IndexActivity.this, DrawerLayoutActivity.class));
                 break;
         }
     }
